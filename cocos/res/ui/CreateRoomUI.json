@@ -1,0 +1,2986 @@
+{
+  "ID": "3e9685ee-d303-4a20-98e6-0d67342f76ef",
+  "Version": "3.10.0.0",
+  "Name": "CreateRoomUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 2,
+            "ActionTag": -836818764,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "bg_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "FileData": {
+              "Type": "Normal",
+              "Path": "BackGround/bg.png",
+              "Plist": ""
+            },
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": 29,
+            "Scale9OriginY": 35,
+            "Scale9Width": 1222,
+            "Scale9Height": 650,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 3,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "CreateRoomUI/title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 48,
+                "Scale9OriginY": 15,
+                "Scale9Width": 82,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 684.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.95
+                },
+                "PreSize": {
+                  "X": 0.1391,
+                  "Y": 0.0639
+                },
+                "LeftMargin": 551.0,
+                "RightMargin": 551.0,
+                "TopMargin": 13.0,
+                "BottomMargin": 661.0,
+                "Tag": 870,
+                "ActionTag": -1592769131,
+                "Size": {
+                  "X": 178.0,
+                  "Y": 46.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "HelpUI/close.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 30,
+                "Scale9Height": 34,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1164.8,
+                  "Y": 694.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.91,
+                  "Y": 0.965
+                },
+                "PreSize": {
+                  "X": 0.0469,
+                  "Y": 0.0778
+                },
+                "LeftMargin": 1134.8,
+                "RightMargin": 85.2,
+                "TopMargin": -2.8,
+                "BottomMargin": 666.8,
+                "Tag": 60,
+                "ActionTag": -2051928181,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 56.0
+                },
+                "Name": "return_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "HelpUI/gxmj.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "HelpUI/gxmj_select.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 280,
+                "Scale9Height": 84,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 590.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.125,
+                  "Y": 0.82
+                },
+                "PreSize": {
+                  "X": 0.2422,
+                  "Y": 0.1472
+                },
+                "LeftMargin": 5.0,
+                "RightMargin": 965.0,
+                "TopMargin": 76.6,
+                "BottomMargin": 537.4,
+                "Tag": 102,
+                "ActionTag": 582855454,
+                "Size": {
+                  "X": 310.0,
+                  "Y": 106.0
+                },
+                "Name": "gamename_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 332.8,
+                  "Y": 79.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.26,
+                  "Y": 0.11
+                },
+                "PreSize": {
+                  "X": 0.7203,
+                  "Y": 0.8042
+                },
+                "LeftMargin": 332.8,
+                "RightMargin": 25.2,
+                "TopMargin": 61.8,
+                "BottomMargin": 79.2,
+                "Tag": 6633,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Default/ok_btn.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 222,
+                    "Scale9Height": 92,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 461.0,
+                      "Y": 75.27
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.13
+                    },
+                    "PreSize": {
+                      "X": 0.2733,
+                      "Y": 0.1969
+                    },
+                    "LeftMargin": 335.0,
+                    "RightMargin": 335.0,
+                    "TopMargin": 446.73,
+                    "BottomMargin": 18.27,
+                    "Tag": 17,
+                    "ActionTag": 754604719,
+                    "Size": {
+                      "X": 252.0,
+                      "Y": 114.0
+                    },
+                    "Name": "create_btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 26,
+                    "LabelText": "注：房卡在开始游戏后扣除，提前解散房间不扣房卡",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 461.0,
+                      "Y": -17.37
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 195,
+                      "G": 140,
+                      "B": 111
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": -0.03
+                    },
+                    "PreSize": {
+                      "X": 0.7592,
+                      "Y": 0.0518
+                    },
+                    "LeftMargin": 111.0,
+                    "RightMargin": 111.0,
+                    "TopMargin": 581.37,
+                    "BottomMargin": -32.37,
+                    "Tag": 39,
+                    "ActionTag": 1623749359,
+                    "Size": {
+                      "X": 700.0,
+                      "Y": 30.0
+                    },
+                    "Name": "tips_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "规则：",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 92.2,
+                      "Y": 503.73
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1,
+                      "Y": 0.87
+                    },
+                    "PreSize": {
+                      "X": 0.1085,
+                      "Y": 0.0587
+                    },
+                    "LeftMargin": 42.2,
+                    "RightMargin": 779.8,
+                    "TopMargin": 58.27,
+                    "BottomMargin": 486.73,
+                    "Tag": 342,
+                    "ActionTag": 688853304,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 34.0
+                    },
+                    "Name": "mode_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 184.4,
+                      "Y": 503.73
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.87
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 158.4,
+                    "RightMargin": 711.6,
+                    "TopMargin": 52.27,
+                    "BottomMargin": 480.73,
+                    "Tag": 6581,
+                    "ActionTag": 780566065,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "round_mode_chx1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 433.34,
+                      "Y": 503.73
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.47,
+                      "Y": 0.87
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 407.34,
+                    "RightMargin": 462.66,
+                    "TopMargin": 52.27,
+                    "BottomMargin": 480.73,
+                    "Tag": 6580,
+                    "ActionTag": -337827377,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "round_mode_chx2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "打捆",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 212.06,
+                      "Y": 503.73
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.23,
+                      "Y": 0.87
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 212.06,
+                    "RightMargin": 559.94,
+                    "TopMargin": 59.27,
+                    "BottomMargin": 487.73,
+                    "Tag": 345,
+                    "ActionTag": -213103732,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "Name": "round_mode_label_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "长跑",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 461.0,
+                      "Y": 503.73
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.87
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 461.0,
+                    "RightMargin": 311.0,
+                    "TopMargin": 59.27,
+                    "BottomMargin": 487.73,
+                    "Tag": 346,
+                    "ActionTag": 304004261,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "Name": "round_mode_label_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "分数：",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 92.2,
+                      "Y": 440.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1,
+                      "Y": 0.76
+                    },
+                    "PreSize": {
+                      "X": 0.1085,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 42.2,
+                    "RightMargin": 779.8,
+                    "TopMargin": 122.96,
+                    "BottomMargin": 424.04,
+                    "Tag": 493,
+                    "ActionTag": 2010332949,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 32.0
+                    },
+                    "Name": "round_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 184.4,
+                      "Y": 440.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.76
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 158.4,
+                    "RightMargin": 711.6,
+                    "TopMargin": 115.96,
+                    "BottomMargin": 417.04,
+                    "Tag": 62,
+                    "ActionTag": 339504687,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "score_chx1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "100分",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 212.06,
+                      "Y": 440.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.23,
+                      "Y": 0.76
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 212.06,
+                    "RightMargin": 559.94,
+                    "TopMargin": 122.96,
+                    "BottomMargin": 424.04,
+                    "Tag": 63,
+                    "ActionTag": 1759276552,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "Name": "score_label_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 184.4,
+                      "Y": 440.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.76
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 158.4,
+                    "RightMargin": 711.6,
+                    "TopMargin": 115.96,
+                    "BottomMargin": 417.04,
+                    "Tag": 6568,
+                    "ActionTag": -987874579,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "round_chx1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 433.34,
+                      "Y": 440.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.47,
+                      "Y": 0.76
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 407.34,
+                    "RightMargin": 462.66,
+                    "TopMargin": 115.96,
+                    "BottomMargin": 417.04,
+                    "Tag": 6569,
+                    "ActionTag": 1280548727,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "round_chx2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 682.28,
+                      "Y": 440.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.74,
+                      "Y": 0.76
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 656.28,
+                    "RightMargin": 213.72,
+                    "TopMargin": 115.96,
+                    "BottomMargin": 417.04,
+                    "Tag": 742,
+                    "ActionTag": -114287991,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "round_chx3",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "8局",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 212.06,
+                      "Y": 440.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.23,
+                      "Y": 0.76
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 212.06,
+                    "RightMargin": 559.94,
+                    "TopMargin": 122.96,
+                    "BottomMargin": 424.04,
+                    "Tag": 503,
+                    "ActionTag": 614653572,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "round_num_label_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "16局",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 461.0,
+                      "Y": 440.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.76
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 461.0,
+                    "RightMargin": 311.0,
+                    "TopMargin": 122.96,
+                    "BottomMargin": 424.04,
+                    "Tag": 504,
+                    "ActionTag": 278706652,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "round_num_label_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "24局",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 709.94,
+                      "Y": 440.04
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.77,
+                      "Y": 0.76
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 709.94,
+                    "RightMargin": 62.06,
+                    "TopMargin": 122.96,
+                    "BottomMargin": 424.04,
+                    "Tag": 741,
+                    "ActionTag": -512970011,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "round_num_label_3",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "财神：",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 92.2,
+                      "Y": 376.35
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1,
+                      "Y": 0.65
+                    },
+                    "PreSize": {
+                      "X": 0.1085,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 42.2,
+                    "RightMargin": 779.8,
+                    "TopMargin": 186.65,
+                    "BottomMargin": 360.35,
+                    "Tag": 58,
+                    "ActionTag": -355937563,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 32.0
+                    },
+                    "Name": "king_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 184.4,
+                      "Y": 376.35
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.65
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 158.4,
+                    "RightMargin": 711.6,
+                    "TopMargin": 179.65,
+                    "BottomMargin": 353.35,
+                    "Tag": 60,
+                    "ActionTag": -514411144,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "king_chx1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 433.34,
+                      "Y": 376.35
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.47,
+                      "Y": 0.65
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 407.34,
+                    "RightMargin": 462.66,
+                    "TopMargin": 179.65,
+                    "BottomMargin": 353.35,
+                    "Tag": 59,
+                    "ActionTag": 1934968324,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "king_chx2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "翻财神",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 212.06,
+                      "Y": 376.35
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.23,
+                      "Y": 0.65
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 212.06,
+                    "RightMargin": 559.94,
+                    "TopMargin": 186.65,
+                    "BottomMargin": 360.35,
+                    "Tag": 63,
+                    "ActionTag": -868713520,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "Name": "king_label_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "发财财神",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 461.0,
+                      "Y": 376.35
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.65
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 461.0,
+                    "RightMargin": 311.0,
+                    "TopMargin": 186.65,
+                    "BottomMargin": 360.35,
+                    "Tag": 64,
+                    "ActionTag": 841778214,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "Name": "king_label_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "底注：",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 92.2,
+                      "Y": 312.66
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1,
+                      "Y": 0.54
+                    },
+                    "PreSize": {
+                      "X": 0.1085,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 42.2,
+                    "RightMargin": 779.8,
+                    "TopMargin": 250.34,
+                    "BottomMargin": 296.66,
+                    "Tag": 933,
+                    "ActionTag": -849706285,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 32.0
+                    },
+                    "Name": "base_score_mode_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 184.4,
+                      "Y": 312.66
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.54
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 158.4,
+                    "RightMargin": 711.6,
+                    "TopMargin": 243.34,
+                    "BottomMargin": 289.66,
+                    "Tag": 6570,
+                    "ActionTag": 779508194,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "base_score_mode_chx1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 433.34,
+                      "Y": 312.66
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.47,
+                      "Y": 0.54
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 407.34,
+                    "RightMargin": 462.66,
+                    "TopMargin": 243.34,
+                    "BottomMargin": 289.66,
+                    "Tag": 6571,
+                    "ActionTag": -599023536,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "base_score_mode_chx2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "7个9个",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 212.06,
+                      "Y": 312.66
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.23,
+                      "Y": 0.54
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 212.06,
+                    "RightMargin": 559.94,
+                    "TopMargin": 250.34,
+                    "BottomMargin": 296.66,
+                    "Tag": 937,
+                    "ActionTag": -1148864082,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "Name": "base_score_mode_label_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "11个13个",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 461.0,
+                      "Y": 312.66
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.54
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 461.0,
+                    "RightMargin": 311.0,
+                    "TopMargin": 250.34,
+                    "BottomMargin": 296.66,
+                    "Tag": 938,
+                    "ActionTag": 1858268901,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "Name": "base_score_mode_label_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "承包：",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 92.2,
+                      "Y": 196.86
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1,
+                      "Y": 0.34
+                    },
+                    "PreSize": {
+                      "X": 0.1085,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 42.2,
+                    "RightMargin": 779.8,
+                    "TopMargin": 366.14,
+                    "BottomMargin": 180.86,
+                    "Tag": 926,
+                    "ActionTag": 1079667894,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 32.0
+                    },
+                    "Name": "job_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/round_chx.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/round_chx.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/round_chx.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/round_chx_select.png",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 184.4,
+                      "Y": 196.86
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.34
+                    },
+                    "PreSize": {
+                      "X": 0.0347,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 168.4,
+                    "RightMargin": 721.6,
+                    "TopMargin": 366.14,
+                    "BottomMargin": 180.86,
+                    "Tag": 376,
+                    "ActionTag": 943680461,
+                    "Size": {
+                      "X": 32.0,
+                      "Y": 32.0
+                    },
+                    "Name": "job_radio",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "承包以及反承包",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 212.06,
+                      "Y": 196.86
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.23,
+                      "Y": 0.34
+                    },
+                    "PreSize": {
+                      "X": 0.3254,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 212.06,
+                    "RightMargin": 409.94,
+                    "TopMargin": 366.14,
+                    "BottomMargin": 180.86,
+                    "Tag": 377,
+                    "ActionTag": 2144494383,
+                    "Size": {
+                      "X": 300.0,
+                      "Y": 32.0
+                    },
+                    "Name": "job_radio_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 184.4,
+                      "Y": 196.86
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2,
+                      "Y": 0.34
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 158.4,
+                    "RightMargin": 711.6,
+                    "TopMargin": 359.14,
+                    "BottomMargin": 173.86,
+                    "Tag": 6574,
+                    "ActionTag": -1679834507,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "job_chx1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 433.34,
+                      "Y": 196.86
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.47,
+                      "Y": 0.34
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 407.34,
+                    "RightMargin": 462.66,
+                    "TopMargin": 359.14,
+                    "BottomMargin": 173.86,
+                    "Tag": 6575,
+                    "ActionTag": -1096673921,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "job_chx2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "不承包",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 212.06,
+                      "Y": 196.86
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.23,
+                      "Y": 0.34
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 212.06,
+                    "RightMargin": 559.94,
+                    "TopMargin": 366.14,
+                    "BottomMargin": 180.86,
+                    "Tag": 930,
+                    "ActionTag": -345329317,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "job_label_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "承包以及反承包",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 461.0,
+                      "Y": 196.86
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.34
+                    },
+                    "PreSize": {
+                      "X": 0.3254,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 461.0,
+                    "RightMargin": 161.0,
+                    "TopMargin": 366.14,
+                    "BottomMargin": 180.86,
+                    "Tag": 931,
+                    "ActionTag": -1239643074,
+                    "Size": {
+                      "X": 300.0,
+                      "Y": 32.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "job_label_2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "消耗：",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.3702,
+                      "Y": 144.75
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0991,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.1085,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 41.3702,
+                    "RightMargin": 780.6298,
+                    "TopMargin": 418.25,
+                    "BottomMargin": 128.75,
+                    "Tag": 97,
+                    "ActionTag": 677163200,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 32.0
+                    },
+                    "Name": "cost_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "x 99",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 220.4502,
+                      "Y": 144.75
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2391,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.2169,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 220.4502,
+                    "RightMargin": 501.5498,
+                    "TopMargin": 418.25,
+                    "BottomMargin": 128.75,
+                    "Tag": 98,
+                    "ActionTag": -367964484,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 32.0
+                    },
+                    "Name": "cost_num_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "GameHallUI/card.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 21,
+                    "Scale9OriginY": 14,
+                    "Scale9Width": 24,
+                    "Scale9Height": 16,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 183.5702,
+                      "Y": 144.75
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1991,
+                      "Y": 0.25
+                    },
+                    "PreSize": {
+                      "X": 0.0716,
+                      "Y": 0.076
+                    },
+                    "LeftMargin": 150.5702,
+                    "RightMargin": 705.4298,
+                    "TopMargin": 412.25,
+                    "BottomMargin": 122.75,
+                    "Tag": 121,
+                    "ActionTag": 1690744224,
+                    "Size": {
+                      "X": 66.0,
+                      "Y": 44.0
+                    },
+                    "Name": "card_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 92.2,
+                      "Y": 75.27
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1,
+                      "Y": 0.13
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 66.2,
+                    "RightMargin": 803.8,
+                    "TopMargin": 480.73,
+                    "BottomMargin": 52.27,
+                    "Tag": 99,
+                    "ActionTag": 763942903,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "prepare_chx",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 26,
+                    "LabelText": "手动准备开局",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 119.86,
+                      "Y": 75.27
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.13,
+                      "Y": 0.13
+                    },
+                    "PreSize": {
+                      "X": 0.2169,
+                      "Y": 0.0484
+                    },
+                    "LeftMargin": 119.86,
+                    "RightMargin": 602.14,
+                    "TopMargin": 489.73,
+                    "BottomMargin": 61.27,
+                    "Tag": 100,
+                    "ActionTag": 202785272,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 28.0
+                    },
+                    "Name": "prepare_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "支付：",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 91.3702,
+                      "Y": 252.2703
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0991,
+                      "Y": 0.4357
+                    },
+                    "PreSize": {
+                      "X": 0.1085,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 41.3702,
+                    "RightMargin": 780.6298,
+                    "TopMargin": 310.7297,
+                    "BottomMargin": 236.2703,
+                    "Tag": 126,
+                    "ActionTag": 2044617670,
+                    "Size": {
+                      "X": 100.0,
+                      "Y": 32.0
+                    },
+                    "Name": "pay_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "CheckedState": true,
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 183.5702,
+                      "Y": 252.2703
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1991,
+                      "Y": 0.4357
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 157.5702,
+                    "RightMargin": 712.4298,
+                    "TopMargin": 303.7297,
+                    "BottomMargin": 229.2703,
+                    "Tag": 127,
+                    "ActionTag": 900207556,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "pay_mode_chx1",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "NormalBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "PressedBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "DisableBackFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_bg.png",
+                      "Plist": ""
+                    },
+                    "NodeNormalFileData": {
+                      "Type": "Normal",
+                      "Path": "HelpUI/chx_select.png",
+                      "Plist": ""
+                    },
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 432.5102,
+                      "Y": 252.2703
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4691,
+                      "Y": 0.4357
+                    },
+                    "PreSize": {
+                      "X": 0.0564,
+                      "Y": 0.0794
+                    },
+                    "LeftMargin": 406.5102,
+                    "RightMargin": 463.4898,
+                    "TopMargin": 303.7297,
+                    "BottomMargin": 229.2703,
+                    "Tag": 128,
+                    "ActionTag": -2142613954,
+                    "Size": {
+                      "X": 52.0,
+                      "Y": 46.0
+                    },
+                    "Name": "pay_mode_chx2",
+                    "ctype": "CheckBoxObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "房主支付",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 211.2302,
+                      "Y": 252.2703
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.2291,
+                      "Y": 0.4357
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 211.2302,
+                    "RightMargin": 560.7698,
+                    "TopMargin": 310.7297,
+                    "BottomMargin": 236.2703,
+                    "Tag": 129,
+                    "ActionTag": 1635095374,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "Name": "pay_mode_label_1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "AA支付",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/zhunyuan.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 460.1702,
+                      "Y": 252.2703
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 131,
+                      "G": 96,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4991,
+                      "Y": 0.4357
+                    },
+                    "PreSize": {
+                      "X": 0.1627,
+                      "Y": 0.0553
+                    },
+                    "LeftMargin": 460.1702,
+                    "RightMargin": 311.8298,
+                    "TopMargin": 310.7297,
+                    "BottomMargin": 236.2703,
+                    "Tag": 130,
+                    "ActionTag": -1516058467,
+                    "Size": {
+                      "X": 150.0,
+                      "Y": 32.0
+                    },
+                    "Name": "pay_mode_label_2",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1608668188,
+                "Size": {
+                  "X": 922.0,
+                  "Y": 579.0
+                },
+                "Name": "gamename_panel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1659094001,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "createroom_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BackGround/bg.png",
+        "CreateRoomUI/title.png",
+        "Default/ok_btn.png",
+        "font/zhunyuan.ttf",
+        "GameHallUI/card.png",
+        "HelpUI/chx_bg.png",
+        "HelpUI/chx_select.png",
+        "HelpUI/close.png",
+        "HelpUI/gxmj.png",
+        "HelpUI/gxmj_select.png",
+        "HelpUI/round_chx.png",
+        "HelpUI/round_chx_select.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

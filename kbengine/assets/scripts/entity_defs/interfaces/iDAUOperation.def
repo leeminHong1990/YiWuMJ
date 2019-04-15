@@ -1,0 +1,29 @@
+<root>
+    <Properties>
+    </Properties>
+
+    <BaseMethods>
+        <queryTodayDAU>
+            <Exposed/>
+            <Arg>		UINT32		</Arg>
+        </queryTodayDAU>
+
+        <queryYesterdayDAU>
+            <Exposed/>
+            <Arg>		UINT32		</Arg>
+        </queryYesterdayDAU>
+    </BaseMethods>
+
+    <ClientMethods>
+        <queryDAUResult>
+            <Arg> UINT32 </Arg>
+            <Arg> USER_DAU_LIST </Arg>
+            <Arg> UINT8 </Arg>
+        </queryDAUResult>
+
+        <queryDAUFailed>
+            <Arg> INT32 </Arg>
+        </queryDAUFailed>
+    </ClientMethods>
+</root>
+
